@@ -14,6 +14,12 @@ body{
 	height: 100vh;
 }
 
+.subTitle{
+	font-size: 0.8rem; 
+	text-align: left; 
+	width: 100%;
+}
+
 .vflex{
 	display: flex;
 	flex-direction: column;
