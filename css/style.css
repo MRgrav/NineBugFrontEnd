@@ -14,13 +14,13 @@ body{
 	height: 100vh;
 }
 
-.col{
+.vflex{
 	display: flex;
 	flex-direction: column;
 	width: 100%;
 }
 
-.row{
+.hflex{
 	width: 100%;
 	display: flex;
 	flex-direction: row;
@@ -124,11 +124,11 @@ a{
 	font-size: 0.9rem;
 }
 
-.justify-center{
+.jst-center{
 	justify-content: center;
 }
 
-.align-center{
+.aln-center{
 	align-items: center;
 }
 .create-ac{
