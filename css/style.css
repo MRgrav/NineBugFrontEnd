@@ -9,9 +9,7 @@ body{
 }
 
 .container > div{
-	padding: 1rem;
 	flex-grow: 1;
-	flex-shrink: 1;
 	position: relative;
 	height: 100vh;
 }
@@ -49,7 +47,9 @@ body{
 }
 
 .login-form > div > img{
-	width: 20px;
+	width: 18px;
+	height: 18px;
+	
 	padding: 0.2rem;
 }
 
@@ -134,4 +134,9 @@ a{
 .create-ac{
 	padding-top: 2rem;
 	width: 100%;
+}
+
+.rhs{
+		background-image: url("media/bgRHS.jpg");
+		background-size: cover;
 }

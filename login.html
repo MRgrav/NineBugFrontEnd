@@ -1,6 +1,8 @@
 <html>
 <head>
 	<link rel="stylesheet" href="./css/style.css">
+	<script src="./js/jquery-3.6.3.min.js"></script>
+	<script src="./js/script.js"></script>
 </head>
 <body>
 	<div class="container row">
@@ -23,14 +25,14 @@
 					<hr/>
 				</div>
 				
-				<form class="login-form" action="">
+				<form class="login-form" action="" method="post">
 				<div class="row input-field">
 					<img src="./media/email.png">
-					<input type="email" placeholder="Email" autocomplete="false" required>
+					<input type="email" placeholder="Email" name="email" autocomplete="false" required>
 				</div>
 				<div class="row input-field">
 					<img src="./media/padlock.png">
-					<input type="password" placeholder="Password" autocomplete="false" minlength="8" required>
+					<input id="password" type="password" placeholder="Password" name="psw" autocomplete="false" minlength="8" required>
 					<img id="visib" src="./media/hidden.png">
 				</div>
 				<div class="row forgot-ps justify-center align-center">
@@ -51,9 +53,8 @@
 			</div>
 			
 		</div>
-		<div style="background: #0990FF">
-			<img>
-			hey
+		<div>
+			<img src="./media/bgRHS.jpg">
 		</div>
 	</div>
 </body>
