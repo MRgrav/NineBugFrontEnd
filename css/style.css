@@ -1,0 +1,137 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	background: white;
+	position: relative;
+}
+
+.container > div{
+	padding: 1rem;
+	flex-grow: 1;
+	flex-shrink: 1;
+	position: relative;
+	height: 100vh;
+}
+
+.col{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.row{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+.logop{
+	width: 100%;
+	max-height: 30px;
+	border: 1px solid rgba(0,0,0,0.5);
+	margin: 0.5rem;
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+}
+
+.logop > img{
+	width: 16px;
+	height: 16px;
+	padding: 0.5rem;
+}
+
+.login-form{
+	margin: 10px;
+	max-width: 600px;
+}
+
+.login-form > div > img{
+	width: 20px;
+	padding: 0.2rem;
+}
+
+.input-field{
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 0.5rem;
+	background: rgba(200,200,200,0.2);
+	margin-top: 1rem;
+	padding: 0.5rem;
+	width: auto;
+}
+
+.input-field > input{
+	border: none;
+	background: none;
+	width: 100%;
+	outline: none;
+	padding: 0.3rem;
+}
+
+.input-field > input:hover ~ .input-field{
+	border: 2px solid black;
+}
+
+#visib{
+	cursor: pointer;
+}
+
+a{
+	text-decoration: none;
+	font-size: 14px;
+	width: fit-content;
+	white-space: nowrap;
+}
+
+.other-op{
+	text-align: center;
+	padding: 1rem;
+	width: auto;
+	align-items: center;
+}
+.other-op > p{
+	position: relative;
+	top: 30px;
+	font-size: 0.8rem;
+	white-space: nowrap;
+	width: fit-content;
+	background: white;
+	padding: 0px 10px; 
+}
+.other-op > hr{
+	height: 0;
+	width: 100%;
+}
+
+.btn{
+	border-radius: 0.25rem;
+	border: none;
+	padding: 0.5rem 0rem;
+	width: 100%;
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
+	cursor: pointer;
+}
+
+.btn-login{
+	background: blue;
+	color: white;
+}
+
+.forgot-ps{
+	padding: 1.5rem 0rem;
+	font-size: 0.9rem;
+}
+
+.justify-center{
+	justify-content: center;
+}
+
+.align-center{
+	align-items: center;
+}
+.create-ac{
+	padding-top: 2rem;
+	width: 100%;
+}
