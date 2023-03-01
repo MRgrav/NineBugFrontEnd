@@ -93,8 +93,7 @@ a{
 
 .other-op{
 	text-align: center;
-	padding: 1rem;
-	padding-top: 0px;
+	padding: 0px 1rem 1rem 1rem;
 	width: auto;
 	align-items: center;
 }
@@ -141,9 +140,4 @@ a{
 .create-ac{
 	padding-top: 2rem;
 	width: 100%;
-}
-
-.rhs{
-		background-image: url("media/bgRHS.jpg");
-		background-size: cover;
 }
