@@ -88,6 +88,7 @@ a{
 .other-op{
 	text-align: center;
 	padding: 1rem;
+	padding-top: 0px;
 	width: auto;
 	align-items: center;
 }
